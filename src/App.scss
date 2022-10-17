@@ -1,24 +1,20 @@
-body {
-  background-color: dimgray;
+iframe {
+  display: none;
 }
 
 .Person {
-  margin: 30px auto;
-  width: 300px;
-  text-align: center;
+  width: fit-content;
   margin-bottom: 16px;
   padding: 8px;
   border: 1px solid #000;
   border-radius: 8px;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(204, 255, 238);
 
   &__name {
     margin-top: 8px;
   }
 
   &__age {
-    color: rgb(88, 42, 42);
+    color: #00f;
     font-weight: bold;
   }
 }
